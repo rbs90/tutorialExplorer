@@ -1,0 +1,197 @@
+body {
+	background: url(https://rbs90.de/img/bg.jpg) repeat #d1d5d8;
+}
+
+#course {
+	width: 600px;
+	float: left;
+	clear: left;
+}
+
+#video {
+	width: 800px;
+	height: 500px;
+	float: left;
+	clear: right;
+	margin: 0 20px;
+}
+
+#videoArea {
+	width: 100%;
+	height: 100%;
+}
+
+#progressbar {
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	z-index: 2147483647;
+	line-height: 35px;
+    width: 300px;
+    text-align: center;
+    background: url("../img/stripes.png") !important;
+}
+
+.label {
+	z-index: 2147483647;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-shadow: 0 1px 1px #222;
+}
+
+.video {
+	margin-bottom: 10px;
+}
+
+.currentVideo {
+	color: green;
+}
+
+.downloadAll {
+		color: black;
+		background: #01BB01;
+    width: 565px;
+    height: 50px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 35px;
+		padding-top: 10px;
+		margin-bottom: 20px;
+}
+
+.sectionDownload {
+		position: absolute;
+    right: 3px;
+    top: 10px;
+    color: #01BB01 !important;
+}
+
+.sectionDownload a{
+	color: #01BB01 !important;
+	font-size: 26px;
+}
+
+.downloadSize {
+	display: inline-block;
+	margin-right: 27px;
+	font-size: 12px;
+	color: chartreuse;
+}
+
+.downloadHint {
+		font-size: 13px;
+		margin-left: 4px;
+		color: darkred;
+}
+
+.download {
+	margin-bottom: 10px;
+}
+
+.download a{
+	color: red !important;
+	text-decoration: underline;
+}
+
+h1 {
+	position: absolute;
+	top: 0px;
+    right: 0px;
+    margin: 10px 20px 0 0;
+    font-size: 30pt;
+    color: #414141;
+    text-shadow: 0 1px 1px #D3D3D3;
+    font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+    text-shadow: 0 1px 1px #222;
+    display: block;
+}
+
+h2 {
+	font-size: 28pt;
+    width: 100%;
+    color: #1326B9;
+    text-shadow: 0 1px 1px #030303;
+    font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+    text-shadow: 0 1px 1px #222;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.tut, a{
+	text-decoration: none;
+}
+
+.tut_div{
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(0,0,0,0.2);
+    /* width: 800px; */
+    /* margin-left: 0; */
+    color: whitesmoke;
+    text-decoration: none !important;
+    font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+    text-shadow: 0 1px 1px #222;
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.tut_progress {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 200px;
+    height: 30px !important;
+    line-height: 30px;
+    bottom: 5px;
+    text-align: center !important;
+    background: url("../img/stripes.png") !important;
+}
+
+
+#courses {
+	margin-top: 30px;
+}
+
+.fa {
+	margin-right: 10px;
+    margin-left: -25px;
+}
+
+.tut_count {
+		position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.ui-progressbar-value {
+	background: rgba(0,255,0, 0.5) !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 1s;
+    transition-timing-function: linear;
+}
+
+.categorie, .section{
+	background: rgba(0, 0, 0, 0.2) !important;
+	border: none !important;
+
+}
+
+.ui-accordion-header {
+    background: rgba(0,0,0, 0.5) !important;
+    color: whitesmoke !important;
+    outline: none !important;
+	    text-shadow: 1px 1px black;
+}
